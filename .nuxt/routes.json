@@ -14,6 +14,13 @@
     "_name": "_54f82d52"
   },
   {
+    "name": "sales",
+    "path": "/sales",
+    "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/sales/index.vue",
+    "chunkName": "pages/sales/index",
+    "_name": "_79640f98"
+  },
+  {
     "name": "customers-create",
     "path": "/customers/create",
     "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/customers/create.vue",
@@ -28,6 +35,13 @@
     "_name": "_71c1c7ac"
   },
   {
+    "name": "sales-create",
+    "path": "/sales/create",
+    "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/sales/create.vue",
+    "chunkName": "pages/sales/create",
+    "_name": "_63b54dec"
+  },
+  {
     "name": "customers-id",
     "path": "/customers/:id",
     "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/customers/_id.vue",
@@ -40,5 +54,12 @@
     "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/products/_id.vue",
     "chunkName": "pages/products/_id",
     "_name": "_e615478c"
+  },
+  {
+    "name": "sales-id",
+    "path": "/sales/:id",
+    "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/sales/_id.vue",
+    "chunkName": "pages/sales/_id",
+    "_name": "_aab710c8"
   }
 ]

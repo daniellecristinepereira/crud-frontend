@@ -116,7 +116,7 @@ export default {
         async getProduct(){
             await this.$axios.$get(`/products/${this.$route.params.id}`).then(success => {
                 this.name = success.name;
-                this.price = success.price.$numberDecimal;
+                this.price = success.price;
                 this.stock = success.stock;
             })
         },
@@ -125,7 +125,7 @@ export default {
             const filds = {
                 name: this.name,
                 price: this.$format_money(this.price),
-                stock: this.stock,
+                stock: Number(this.stock),
             }
             
             await this.$axios.$put(`/products/${this.$route.params.id}`, filds).then(success => {

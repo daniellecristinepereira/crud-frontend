@@ -20,13 +20,14 @@ export default (context, inject) => {
 
         // Remove os ultimos dois caracteres
         let sem_centavos = value.substr(0, value.length -2);
-
+        
         // Junta tudo
-        value = Number(`${sem_centavos}.${centavos}`)
-
+        value = `${sem_centavos}.${centavos}`
+        
         // Formata para real
         if(db == true){
-            value = Number(value.toFixed(2))
+            value = Number(value).toFixed(2)
+            console.log(value)
         }else{
             value = value.toLocaleString('pt-br', {minimumFractionDigits: 2})
 

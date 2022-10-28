@@ -48,7 +48,7 @@
                                                     <tr v-for="(product, index) in products" :key="index"
                                                         class="bg-gray-50 text-gray-700 ">
                                                         <td class="py-3 px-8 text-left"> {{ product.name }}</td>
-                                                        <td class="py-3 px-8 text-left"> {{ $format_money(product.price.$numberDecimal, false) }}</td>
+                                                        <td class="py-3 px-8 text-left"> {{ $format_money(product.price, false) }}</td>
                                                         <td class="py-3 px-8 text-left"> {{ product.stock }}</td>
                                                         <td class="py-3 px-18 text-left">
                                                             <div class="flex item-center ">
