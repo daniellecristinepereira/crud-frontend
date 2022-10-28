@@ -1,0 +1,44 @@
+[
+  {
+    "name": "customers",
+    "path": "/customers",
+    "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/customers/index.vue",
+    "chunkName": "pages/customers/index",
+    "_name": "_443915bd"
+  },
+  {
+    "name": "products",
+    "path": "/products",
+    "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/products/index.vue",
+    "chunkName": "pages/products/index",
+    "_name": "_54f82d52"
+  },
+  {
+    "name": "customers-create",
+    "path": "/customers/create",
+    "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/customers/create.vue",
+    "chunkName": "pages/customers/create",
+    "_name": "_6a9deca1"
+  },
+  {
+    "name": "products-create",
+    "path": "/products/create",
+    "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/products/create.vue",
+    "chunkName": "pages/products/create",
+    "_name": "_71c1c7ac"
+  },
+  {
+    "name": "customers-id",
+    "path": "/customers/:id",
+    "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/customers/_id.vue",
+    "chunkName": "pages/customers/_id",
+    "_name": "_0d9b6365"
+  },
+  {
+    "name": "products-id",
+    "path": "/products/:id",
+    "component": "/home/danielle/Área de Trabalho/projeto-crud/frontend/pages/products/_id.vue",
+    "chunkName": "pages/products/_id",
+    "_name": "_e615478c"
+  }
+]
